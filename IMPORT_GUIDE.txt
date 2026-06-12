@@ -1,0 +1,61 @@
+COMPUTER CARE ACADEMY — EXCEL IMPORT MASTER GUIDE
+===================================================
+
+HOW TO IMPORT DATA:
+1. Open any page (Students, Reports, etc.)
+2. Click the green "📥 Import Excel" button
+3. Drop your .xlsx file or browse for it
+4. Wait for the import to complete
+
+SHEET NAMES (must be exact):
+- Students
+- Teachers
+- Fees
+- Salary
+- Topics
+- Tasks
+- Internships
+- Courses
+- Notifications
+
+STUDENTS SHEET COLUMNS:
+Name | Father Name | Mother Name | Gender | DOB | Mobile | Alt Mobile | Email | Aadhaar
+Qualification | Religion | Caste | Marital Status | Family Members | Annual Income
+Father Occupation | Mother Occupation | Address | Landmark | Village | District | Pincode | State
+Course | Course ID | Batch | Device | Timings | Day | Total Fees | Monthly Fees | Duration
+Admission Date | Status | Username | Password | Grade | Percentage | Rank | Reference
+Occupation | Experience | Feedback | Resign No
+
+TEACHERS SHEET COLUMNS:
+Name | Qualification | Subject | Mobile | Email | Gender | DOB | Join Date | Salary
+Performance | Active | Address | Username | Password
+
+FEES SHEET COLUMNS:
+Student ID | Student | Date | Amount | Mode | Receipt No | Note
+
+SALARY SHEET COLUMNS:
+Teacher ID | Teacher | Base Salary | Date | Amount | Mode | Note
+
+TOPICS SHEET COLUMNS:
+Title | Course | Teacher | Date | Time | Description | Status | Student | Student ID
+
+TASKS SHEET COLUMNS:
+Title | Assigned To | Status | Priority | Due Date | Description
+
+INTERNSHIPS SHEET COLUMNS:
+Student | Student ID | Program | Company | Mentor | Start Date | End Date | Hours | Status | Project | Description
+
+COURSES SHEET COLUMNS:
+Name | Duration | Fees | Subcategories
+
+NOTIFICATIONS SHEET COLUMNS:
+Title | Type | Target | Date | Priority | Message
+
+MATCHING RULES:
+- Students matched by Mobile number (updates existing, adds new)
+- Teachers matched by Name or Mobile (updates existing, adds new)
+- Fees/Salary: always appended as new payments
+- Topics/Tasks/Internships: always added as new records
+
+DATE FORMAT: YYYY-MM-DD (e.g. 2024-06-15)
+COURSE STATUS VALUES: Pending | Continue | Complete | Leave | Left
